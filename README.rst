@@ -11,7 +11,7 @@
 Установка:
 ----------
 Для устаноки при помощи pip:
-    pip install git+https://github.com/oldbay/raster_tools
+    pip install git+https://github.com/oldbay/raster_calc
 
 Для установки в gentoo linux:
     представлен ebuild сценарий raster-calc-999.ebuild
