@@ -6,9 +6,13 @@ import os
 
 def helpmy():
     print """
-    raster_calc <calc method> <conf file> [<conf_file.py>]
+    Use:
+
+    raster_calc <calc method> <conf or other file> [<conf_file.py>]
+
     or
-    env RASTER_CALC_CONF=<conf_file.py> raster_calc <calc method> <conf file>
+
+    env RASTER_CALC_CONF=<conf_file.py> raster_calc <calc method> <conf or other file>
     conf_file.py - optionality
     """
 

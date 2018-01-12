@@ -5,8 +5,5 @@ import importlib
 
 # Import scripts for calculate raster
 calc_methods = {
-    "sarvi": importlib.import_module("example_sarvi_index"),
+    "sarvi": importlib.import_module("sarvi_index"),
 }
-
-# Echo output (True, False)
-echo_output = True
